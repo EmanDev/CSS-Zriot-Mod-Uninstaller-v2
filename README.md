@@ -11,7 +11,7 @@
 
 - Pushed to version 2.0
 - Updated obsolete version 1.0 to 2.0
-- Move version 1.0 to old builds
+- Move version 1.0 to old builds (different repo)
 - Complete rebase from modern metro framework to material ui framework
 
 ### Releases
