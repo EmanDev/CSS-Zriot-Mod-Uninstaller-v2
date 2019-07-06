@@ -16,7 +16,11 @@
 
 ### Releases
 
-Official link will be up soon! (Not yet uploaded)
+Too lazy ;P 
+
+Get
+
+> Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller/material-css-zr-mod-uninstaller/material-css-zr-mod-uninstaller/bin/Release/
 
 ### Requirements
 
