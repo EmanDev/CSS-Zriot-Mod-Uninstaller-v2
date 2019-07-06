@@ -1,0 +1,9 @@
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Release\material-css-zr-mod-uninstaller.exe.config
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Release\material-css-zr-mod-uninstaller.exe
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Release\material-css-zr-mod-uninstaller.pdb
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Release\MaterialSkin.dll
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Release\material_css_zr_mod_uninstaller.Form1.resources
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Release\material_css_zr_mod_uninstaller.Properties.Resources.resources
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Release\material-css-zr-mod-uninstaller.csproj.GenerateResource.Cache
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Release\material-css-zr-mod-uninstaller.exe
+c:\Users\gamea\Documents\Visual Studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Release\material-css-zr-mod-uninstaller.pdb
