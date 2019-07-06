@@ -9,7 +9,10 @@
 
 ## Screenshots
 
-Soon!
+![Dark Theme](/Documentation/Dark.png?raw=true "Dark Theme")
+![Light Theme](/Documentation/Light.png?raw=true "Light Theme")
+![Blue Color Scheme](/Documentation/Usage.png?raw=true "Usage")
+![Green Color Scheme](/Documentation/Help.png?raw=true "Help")
 
 ## Changelog
 
