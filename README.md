@@ -7,6 +7,10 @@
 2. Uses material designed framework.
 3. Supports Light and Dark themes with different Color Schemes.
 
+## Screenshots
+
+Soon!
+
 ## Changelog
 
 - Pushed to version 2.0
