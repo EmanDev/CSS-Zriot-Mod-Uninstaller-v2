@@ -7,3 +7,12 @@ c:\users\gamea\documents\visual studio 2015\Projects\material-css-zr-mod-uninsta
 c:\users\gamea\documents\visual studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Debug\MaterialSkin.dll
 c:\users\gamea\documents\visual studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material-css-zr-mod-uninstaller.exe
 c:\users\gamea\documents\visual studio 2015\Projects\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material-css-zr-mod-uninstaller.pdb
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Debug\material-css-zr-mod-uninstaller.exe.config
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material-css-zr-mod-uninstaller.exe
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material-css-zr-mod-uninstaller.pdb
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Debug\material-css-zr-mod-uninstaller.exe
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\bin\Debug\material-css-zr-mod-uninstaller.pdb
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material-css-zr-mod-uninstaller.csprojResolveAssemblyReference.cache
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material_css_zr_mod_uninstaller.Form1.resources
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material_css_zr_mod_uninstaller.Properties.Resources.resources
+C:\Users\gamea\Documents\GitHub\Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller\material-css-zr-mod-uninstaller\material-css-zr-mod-uninstaller\obj\Debug\material-css-zr-mod-uninstaller.csproj.GenerateResource.Cache

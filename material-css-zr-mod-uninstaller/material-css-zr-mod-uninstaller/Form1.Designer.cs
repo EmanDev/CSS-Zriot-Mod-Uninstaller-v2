@@ -53,22 +53,22 @@
             this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRaisedButton7 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton8 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRaisedButton9 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton10 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton11 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton12 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.materialRaisedButton13 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton12 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton11 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton10 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton9 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialRaisedButton8 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton7 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -451,6 +451,65 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Usage";
             // 
+            // materialLabel11
+            // 
+            this.materialLabel11.AutoSize = true;
+            this.materialLabel11.Depth = 0;
+            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel11.Location = new System.Drawing.Point(6, 223);
+            this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel11.Name = "materialLabel11";
+            this.materialLabel11.Size = new System.Drawing.Size(541, 57);
+            this.materialLabel11.TabIndex = 3;
+            this.materialLabel11.Text = "Compatibility:\r\n- This application runs well on Windows 7 and up. Preferrably Win" +
+    "dows 8.1 or 10\r\n- To run on older version of Windows, make sure runtimes are ava" +
+    "ilable on it.";
+            // 
+            // materialLabel10
+            // 
+            this.materialLabel10.AutoSize = true;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel10.Location = new System.Drawing.Point(6, 156);
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            this.materialLabel10.Size = new System.Drawing.Size(803, 57);
+            this.materialLabel10.TabIndex = 2;
+            this.materialLabel10.Text = "Notes:\r\n- If selected directory has missing 1 or more folders, app will have an e" +
+    "rror. This means you manually modified the files\r\n- If errors persist just resta" +
+    "rt the application\r\n";
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel9.Location = new System.Drawing.Point(6, 109);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(664, 38);
+            this.materialLabel9.TabIndex = 1;
+            this.materialLabel9.Text = "Runtime:\r\nTargeted runtime is .Net Framework 3.5 and higher. Runtime downloads ar" +
+    "e available on Help Tab.";
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(6, 3);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(549, 95);
+            this.materialLabel8.TabIndex = 0;
+            this.materialLabel8.Text = "Usage:\r\n1. Browse the folder where steamcmd.exe is located.\r\n2. Apply directories" +
+    " and verify folders, otherwise you can reset and browse again.\r\n3. Uninstall the" +
+    " mod.\r\n4. Verify source files and done.";
+            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
@@ -471,178 +530,20 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Help";
             // 
-            // materialLabel8
+            // materialRaisedButton13
             // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel8.Location = new System.Drawing.Point(6, 3);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(549, 95);
-            this.materialLabel8.TabIndex = 0;
-            this.materialLabel8.Text = "Usage:\r\n1. Browse the folder where steamcmd.exe is located.\r\n2. Apply directories" +
-    " and verify folders, otherwise you can reset and browse again.\r\n3. Uninstall the" +
-    " mod.\r\n4. Verify source files and done.";
-            // 
-            // materialLabel9
-            // 
-            this.materialLabel9.AutoSize = true;
-            this.materialLabel9.Depth = 0;
-            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel9.Location = new System.Drawing.Point(6, 109);
-            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel9.Name = "materialLabel9";
-            this.materialLabel9.Size = new System.Drawing.Size(664, 38);
-            this.materialLabel9.TabIndex = 1;
-            this.materialLabel9.Text = "Runtime:\r\nTargeted runtime is .Net Framework 3.5 and higher. Runtime downloads ar" +
-    "e available on Help Tab.";
-            // 
-            // materialLabel10
-            // 
-            this.materialLabel10.AutoSize = true;
-            this.materialLabel10.Depth = 0;
-            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel10.Location = new System.Drawing.Point(6, 156);
-            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel10.Name = "materialLabel10";
-            this.materialLabel10.Size = new System.Drawing.Size(803, 57);
-            this.materialLabel10.TabIndex = 2;
-            this.materialLabel10.Text = "Notes:\r\n- If selected directory has missing 1 or more folders, app will have an e" +
-    "rror. This means you manually modified the files\r\n- If errors persist just resta" +
-    "rt the application\r\n";
-            // 
-            // materialLabel11
-            // 
-            this.materialLabel11.AutoSize = true;
-            this.materialLabel11.Depth = 0;
-            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel11.Location = new System.Drawing.Point(6, 223);
-            this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel11.Name = "materialLabel11";
-            this.materialLabel11.Size = new System.Drawing.Size(541, 57);
-            this.materialLabel11.TabIndex = 3;
-            this.materialLabel11.Text = "Compatibility:\r\n- This application runs well on Windows 7 and up. Preferrably Win" +
-    "dows 8.1 or 10\r\n- To run on older version of Windows, make sure runtimes are ava" +
-    "ilable on it.";
-            // 
-            // materialLabel12
-            // 
-            this.materialLabel12.AutoSize = true;
-            this.materialLabel12.Depth = 0;
-            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel12.Location = new System.Drawing.Point(3, 3);
-            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel12.Name = "materialLabel12";
-            this.materialLabel12.Size = new System.Drawing.Size(383, 133);
-            this.materialLabel12.TabIndex = 0;
-            this.materialLabel12.Text = resources.GetString("materialLabel12.Text");
-            // 
-            // materialLabel13
-            // 
-            this.materialLabel13.AutoSize = true;
-            this.materialLabel13.Depth = 0;
-            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel13.Location = new System.Drawing.Point(3, 144);
-            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel13.Name = "materialLabel13";
-            this.materialLabel13.Size = new System.Drawing.Size(52, 19);
-            this.materialLabel13.TabIndex = 1;
-            this.materialLabel13.Text = "Tools:";
-            // 
-            // materialRaisedButton7
-            // 
-            this.materialRaisedButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton7.Depth = 0;
-            this.materialRaisedButton7.Icon = null;
-            this.materialRaisedButton7.Location = new System.Drawing.Point(7, 166);
-            this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton7.Name = "materialRaisedButton7";
-            this.materialRaisedButton7.Primary = true;
-            this.materialRaisedButton7.Size = new System.Drawing.Size(134, 40);
-            this.materialRaisedButton7.TabIndex = 2;
-            this.materialRaisedButton7.Text = "Change Theme";
-            this.materialRaisedButton7.UseVisualStyleBackColor = true;
-            this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
-            // 
-            // materialRaisedButton8
-            // 
-            this.materialRaisedButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton8.Depth = 0;
-            this.materialRaisedButton8.Icon = null;
-            this.materialRaisedButton8.Location = new System.Drawing.Point(147, 166);
-            this.materialRaisedButton8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton8.Name = "materialRaisedButton8";
-            this.materialRaisedButton8.Primary = true;
-            this.materialRaisedButton8.Size = new System.Drawing.Size(190, 40);
-            this.materialRaisedButton8.TabIndex = 3;
-            this.materialRaisedButton8.Text = "Change Color Scheme";
-            this.materialRaisedButton8.UseVisualStyleBackColor = true;
-            this.materialRaisedButton8.Click += new System.EventHandler(this.materialRaisedButton8_Click);
-            // 
-            // materialLabel14
-            // 
-            this.materialLabel14.AutoSize = true;
-            this.materialLabel14.Depth = 0;
-            this.materialLabel14.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel14.Location = new System.Drawing.Point(6, 218);
-            this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel14.Name = "materialLabel14";
-            this.materialLabel14.Size = new System.Drawing.Size(49, 19);
-            this.materialLabel14.TabIndex = 4;
-            this.materialLabel14.Text = "Links:";
-            // 
-            // materialRaisedButton9
-            // 
-            this.materialRaisedButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton9.Depth = 0;
-            this.materialRaisedButton9.Icon = null;
-            this.materialRaisedButton9.Location = new System.Drawing.Point(7, 240);
-            this.materialRaisedButton9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton9.Name = "materialRaisedButton9";
-            this.materialRaisedButton9.Primary = true;
-            this.materialRaisedButton9.Size = new System.Drawing.Size(172, 40);
-            this.materialRaisedButton9.TabIndex = 5;
-            this.materialRaisedButton9.Text = ".Net Framework 3.5";
-            this.materialRaisedButton9.UseVisualStyleBackColor = true;
-            this.materialRaisedButton9.Click += new System.EventHandler(this.materialRaisedButton9_Click);
-            // 
-            // materialRaisedButton10
-            // 
-            this.materialRaisedButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton10.Depth = 0;
-            this.materialRaisedButton10.Icon = null;
-            this.materialRaisedButton10.Location = new System.Drawing.Point(185, 240);
-            this.materialRaisedButton10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton10.Name = "materialRaisedButton10";
-            this.materialRaisedButton10.Primary = true;
-            this.materialRaisedButton10.Size = new System.Drawing.Size(172, 40);
-            this.materialRaisedButton10.TabIndex = 6;
-            this.materialRaisedButton10.Text = ".Net Framework 4";
-            this.materialRaisedButton10.UseVisualStyleBackColor = true;
-            this.materialRaisedButton10.Click += new System.EventHandler(this.materialRaisedButton10_Click);
-            // 
-            // materialRaisedButton11
-            // 
-            this.materialRaisedButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton11.Depth = 0;
-            this.materialRaisedButton11.Icon = null;
-            this.materialRaisedButton11.Location = new System.Drawing.Point(363, 240);
-            this.materialRaisedButton11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton11.Name = "materialRaisedButton11";
-            this.materialRaisedButton11.Primary = true;
-            this.materialRaisedButton11.Size = new System.Drawing.Size(110, 40);
-            this.materialRaisedButton11.TabIndex = 7;
-            this.materialRaisedButton11.Text = "Report Bugs";
-            this.materialRaisedButton11.UseVisualStyleBackColor = true;
-            this.materialRaisedButton11.Click += new System.EventHandler(this.materialRaisedButton11_Click);
+            this.materialRaisedButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton13.Depth = 0;
+            this.materialRaisedButton13.Icon = null;
+            this.materialRaisedButton13.Location = new System.Drawing.Point(595, 240);
+            this.materialRaisedButton13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton13.Name = "materialRaisedButton13";
+            this.materialRaisedButton13.Primary = true;
+            this.materialRaisedButton13.Size = new System.Drawing.Size(110, 40);
+            this.materialRaisedButton13.TabIndex = 9;
+            this.materialRaisedButton13.Text = "About";
+            this.materialRaisedButton13.UseVisualStyleBackColor = true;
+            this.materialRaisedButton13.Click += new System.EventHandler(this.materialRaisedButton13_Click);
             // 
             // materialRaisedButton12
             // 
@@ -659,20 +560,119 @@
             this.materialRaisedButton12.UseVisualStyleBackColor = true;
             this.materialRaisedButton12.Click += new System.EventHandler(this.materialRaisedButton12_Click);
             // 
-            // materialRaisedButton13
+            // materialRaisedButton11
             // 
-            this.materialRaisedButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton13.Depth = 0;
-            this.materialRaisedButton13.Icon = null;
-            this.materialRaisedButton13.Location = new System.Drawing.Point(595, 240);
-            this.materialRaisedButton13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton13.Name = "materialRaisedButton13";
-            this.materialRaisedButton13.Primary = true;
-            this.materialRaisedButton13.Size = new System.Drawing.Size(110, 40);
-            this.materialRaisedButton13.TabIndex = 9;
-            this.materialRaisedButton13.Text = "About";
-            this.materialRaisedButton13.UseVisualStyleBackColor = true;
-            this.materialRaisedButton13.Click += new System.EventHandler(this.materialRaisedButton13_Click);
+            this.materialRaisedButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton11.Depth = 0;
+            this.materialRaisedButton11.Icon = null;
+            this.materialRaisedButton11.Location = new System.Drawing.Point(363, 240);
+            this.materialRaisedButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton11.Name = "materialRaisedButton11";
+            this.materialRaisedButton11.Primary = true;
+            this.materialRaisedButton11.Size = new System.Drawing.Size(110, 40);
+            this.materialRaisedButton11.TabIndex = 7;
+            this.materialRaisedButton11.Text = "Report Bugs";
+            this.materialRaisedButton11.UseVisualStyleBackColor = true;
+            this.materialRaisedButton11.Click += new System.EventHandler(this.materialRaisedButton11_Click);
+            // 
+            // materialRaisedButton10
+            // 
+            this.materialRaisedButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton10.Depth = 0;
+            this.materialRaisedButton10.Icon = null;
+            this.materialRaisedButton10.Location = new System.Drawing.Point(185, 240);
+            this.materialRaisedButton10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton10.Name = "materialRaisedButton10";
+            this.materialRaisedButton10.Primary = true;
+            this.materialRaisedButton10.Size = new System.Drawing.Size(172, 40);
+            this.materialRaisedButton10.TabIndex = 6;
+            this.materialRaisedButton10.Text = ".Net Framework 4";
+            this.materialRaisedButton10.UseVisualStyleBackColor = true;
+            this.materialRaisedButton10.Click += new System.EventHandler(this.materialRaisedButton10_Click);
+            // 
+            // materialRaisedButton9
+            // 
+            this.materialRaisedButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton9.Depth = 0;
+            this.materialRaisedButton9.Icon = null;
+            this.materialRaisedButton9.Location = new System.Drawing.Point(7, 240);
+            this.materialRaisedButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton9.Name = "materialRaisedButton9";
+            this.materialRaisedButton9.Primary = true;
+            this.materialRaisedButton9.Size = new System.Drawing.Size(172, 40);
+            this.materialRaisedButton9.TabIndex = 5;
+            this.materialRaisedButton9.Text = ".Net Framework 3.5";
+            this.materialRaisedButton9.UseVisualStyleBackColor = true;
+            this.materialRaisedButton9.Click += new System.EventHandler(this.materialRaisedButton9_Click);
+            // 
+            // materialLabel14
+            // 
+            this.materialLabel14.AutoSize = true;
+            this.materialLabel14.Depth = 0;
+            this.materialLabel14.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel14.Location = new System.Drawing.Point(6, 218);
+            this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel14.Name = "materialLabel14";
+            this.materialLabel14.Size = new System.Drawing.Size(49, 19);
+            this.materialLabel14.TabIndex = 4;
+            this.materialLabel14.Text = "Links:";
+            // 
+            // materialRaisedButton8
+            // 
+            this.materialRaisedButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton8.Depth = 0;
+            this.materialRaisedButton8.Icon = null;
+            this.materialRaisedButton8.Location = new System.Drawing.Point(147, 166);
+            this.materialRaisedButton8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton8.Name = "materialRaisedButton8";
+            this.materialRaisedButton8.Primary = true;
+            this.materialRaisedButton8.Size = new System.Drawing.Size(190, 40);
+            this.materialRaisedButton8.TabIndex = 3;
+            this.materialRaisedButton8.Text = "Change Color Scheme";
+            this.materialRaisedButton8.UseVisualStyleBackColor = true;
+            this.materialRaisedButton8.Click += new System.EventHandler(this.materialRaisedButton8_Click);
+            // 
+            // materialRaisedButton7
+            // 
+            this.materialRaisedButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton7.Depth = 0;
+            this.materialRaisedButton7.Icon = null;
+            this.materialRaisedButton7.Location = new System.Drawing.Point(7, 166);
+            this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton7.Name = "materialRaisedButton7";
+            this.materialRaisedButton7.Primary = true;
+            this.materialRaisedButton7.Size = new System.Drawing.Size(134, 40);
+            this.materialRaisedButton7.TabIndex = 2;
+            this.materialRaisedButton7.Text = "Change Theme";
+            this.materialRaisedButton7.UseVisualStyleBackColor = true;
+            this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
+            // 
+            // materialLabel13
+            // 
+            this.materialLabel13.AutoSize = true;
+            this.materialLabel13.Depth = 0;
+            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel13.Location = new System.Drawing.Point(3, 144);
+            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel13.Name = "materialLabel13";
+            this.materialLabel13.Size = new System.Drawing.Size(52, 19);
+            this.materialLabel13.TabIndex = 1;
+            this.materialLabel13.Text = "Tools:";
+            // 
+            // materialLabel12
+            // 
+            this.materialLabel12.AutoSize = true;
+            this.materialLabel12.Depth = 0;
+            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel12.Location = new System.Drawing.Point(3, 3);
+            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel12.Name = "materialLabel12";
+            this.materialLabel12.Size = new System.Drawing.Size(383, 133);
+            this.materialLabel12.TabIndex = 0;
+            this.materialLabel12.Text = resources.GetString("materialLabel12.Text");
             // 
             // Form1
             // 
@@ -682,6 +682,7 @@
             this.Controls.Add(this.materialTabControl1);
             this.Controls.Add(this.materialTabSelector1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Sizable = false;
             this.Text = "Zombie Riot Mod Uninstaller 2.0";
