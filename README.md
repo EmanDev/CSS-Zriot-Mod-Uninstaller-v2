@@ -4,7 +4,7 @@
 ## Features
 
 1. Compatible with most Windows Operating System today.
-2. Uses material designed framework.
+2. Uses [Material Skin](https://github.com/IgnaceMaes/MaterialSkin).
 3. Supports Light and Dark themes with different Color Schemes.
 
 ## Screenshots
@@ -19,11 +19,11 @@
 - Pushed to version 2.0
 - Updated obsolete version 1.0 to 2.0
 - Move version 1.0 to old builds (different repo)
-- Complete rebase from modern metro framework to material ui framework
+- Complete rebase from modern metro framework to material skin
 
 ### Releases
 
-Too lazy :P 
+Too lazy :P (Soon)
 
 Get ...
 
@@ -43,6 +43,7 @@ Extract it anywhere on your pc.
 
 1. Open the App
 2. Click on Usage.
+3. Restart if error occurs.
 
 ### Programming Language/s Used
 
