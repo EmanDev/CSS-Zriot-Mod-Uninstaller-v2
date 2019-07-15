@@ -1,5 +1,5 @@
-# Material Counter-Strike Source Zombie Riot Mod Uninstaller
- A material designed application that removes zombie riot mod from Counter-Strike: Source Dedicated Server.
+# Counter-Strike: Source Zombie Riot Mod Uninstaller v2.0
+A material designed application that removes zombie riot mod from Counter-Strike: Source Dedicated Server.
 
 ## Features
 
@@ -21,21 +21,18 @@
 - Move version 1.0 to old builds (different repo)
 - Complete rebase from modern metro framework to material skin
 
-### Releases
+## Releases
 
-Too lazy :P (Soon)
+Go to:
+> https://emandev.github.io/downloads.html
 
-Get ...
-
-> Material-Counter-Strike-Source-Zombie-Riot-Mod-Uninstaller/material-css-zr-mod-uninstaller/material-css-zr-mod-uninstaller/bin/Release/
-
-### Requirements
+## Requirements
 
 1. Windows 7 (or higher).
 2. Installed Counter-Strike: Source Dedicated Server.
 3. .Net Framework 3.5 and above.
 
-### Installing
+## Installing
 
 Extract it anywhere on your pc.
 
@@ -45,7 +42,7 @@ Extract it anywhere on your pc.
 2. Click on Usage.
 3. Restart if error occurs.
 
-### Programming Language/s Used
+## Programming Language/s Used
 
 Visual C#
 
