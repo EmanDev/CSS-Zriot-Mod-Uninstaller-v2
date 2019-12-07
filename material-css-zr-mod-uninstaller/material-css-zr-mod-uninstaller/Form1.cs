@@ -156,7 +156,7 @@ namespace material_css_zr_mod_uninstaller
             colorSchemeIndex++;
             if (colorSchemeIndex > 2) colorSchemeIndex = 0;
 
-            //These are just example color schemes
+            //These are just color schemes to be used by default
             switch (colorSchemeIndex)
             {
                 case 0:
