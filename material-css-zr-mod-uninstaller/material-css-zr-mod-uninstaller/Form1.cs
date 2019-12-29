@@ -25,18 +25,63 @@ namespace material_css_zr_mod_uninstaller
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+            Load += Form1_Load;
         }
 
         private string pathX;
         private void Form1_Load(object sender, EventArgs e)
         {
+
             // Initialize Read Only Mode = True * Property Added *
             // Initialize Control Functions
             materialRaisedButton3.Enabled = false;
             materialRaisedButton4.Enabled = false;
             materialRaisedButton5.Enabled = false;
             materialRaisedButton6.Enabled = false;
+            if (Properties.Settings.Default.theme == "Dark" && Properties.Settings.Default.color == "Green")
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
+                materialLabel16.Text = "Dark";
+                materialLabel18.Text = "Green";
+            }
+            if (Properties.Settings.Default.theme == "Light" && Properties.Settings.Default.color == "Green")
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
+                materialLabel16.Text = "Light";
+                materialLabel18.Text = "Green";
+            }
+            if (Properties.Settings.Default.theme == "Dark" && Properties.Settings.Default.color == "Blue Grey")
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+                materialLabel16.Text = "Dark";
+                materialLabel18.Text = "Blue Grey";
+            }
+            if (Properties.Settings.Default.theme == "Light" && Properties.Settings.Default.color == "Blue Grey")
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+                materialLabel16.Text = "Light";
+                materialLabel18.Text = "Blue Grey";
+            }
+            if (Properties.Settings.Default.theme == "Dark" && Properties.Settings.Default.color == "Indigo")
+            { 
+                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
+                materialLabel16.Text = "Dark";
+                materialLabel18.Text = "Indigo";
+            }
+            if (Properties.Settings.Default.theme == "Light" && Properties.Settings.Default.color == "Indigo")
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
+                materialLabel16.Text = "Light";
+                materialLabel18.Text = "Indigo";
+            }
         }
+            
 
         private void materialLabel1_Click(object sender, EventArgs e)
         {
@@ -123,6 +168,14 @@ namespace material_css_zr_mod_uninstaller
         private void materialRaisedButton7_Click(object sender, EventArgs e)
         {
             materialSkinManager.Theme = materialSkinManager.Theme == MaterialSkinManager.Themes.DARK ? MaterialSkinManager.Themes.LIGHT : MaterialSkinManager.Themes.DARK;
+            if (materialSkinManager.Theme == MaterialSkinManager.Themes.DARK)
+            {
+                materialLabel16.Text = "Dark";
+            }
+            else
+            {
+                materialLabel16.Text = "Light";
+            }
         }
 
         private void materialRaisedButton13_Click(object sender, EventArgs e)
@@ -161,13 +214,62 @@ namespace material_css_zr_mod_uninstaller
             {
                 case 0:
                     materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+                    materialLabel18.Text = "Blue Grey";
                     break;
                 case 1:
                     materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
+                    materialLabel18.Text = "Indigo";
                     break;
                 case 2:
                     materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
+                    materialLabel18.Text = "Green";
                     break;
+            }
+        }
+
+        private void materialRaisedButton14_Click(object sender, EventArgs e)
+        {
+            if (materialLabel16.Text == "Dark" && materialLabel18.Text == "Green")
+            {
+                Properties.Settings.Default.theme = "Dark";
+                Properties.Settings.Default.color = "Green";
+                Properties.Settings.Default.Save();
+                MessageBox.Show("User theme settings saved.", "Theme Settings");
+            }
+            if (materialLabel16.Text == "Light" && materialLabel18.Text == "Green")
+            {
+                Properties.Settings.Default.theme = "Light";
+                Properties.Settings.Default.color = "Green";
+                Properties.Settings.Default.Save();
+                MessageBox.Show("User theme settings saved.", "Theme Settings");
+            }
+            if (materialLabel16.Text == "Dark" && materialLabel18.Text == "Blue Grey")
+            {
+                Properties.Settings.Default.theme = "Dark";
+                Properties.Settings.Default.color = "Blue Grey";
+                Properties.Settings.Default.Save();
+                MessageBox.Show("User theme settings saved.", "Theme Settings");
+            }
+            if (materialLabel16.Text == "Light" && materialLabel18.Text == "Blue Grey")
+            {
+                Properties.Settings.Default.theme = "Light";
+                Properties.Settings.Default.color = "Blue Grey";
+                Properties.Settings.Default.Save();
+                MessageBox.Show("User theme settings saved.", "Theme Settings");
+            }
+            if (materialLabel16.Text == "Dark" && materialLabel18.Text == "Indigo")
+            {
+                Properties.Settings.Default.theme = "Dark";
+                Properties.Settings.Default.color = "Indigo";
+                Properties.Settings.Default.Save();
+                MessageBox.Show("User theme settings saved.", "Theme Settings");
+            }
+            if (materialLabel16.Text == "Light" && materialLabel18.Text == "Indigo")
+            {
+                Properties.Settings.Default.theme = "Light";
+                Properties.Settings.Default.color = "Indigo";
+                Properties.Settings.Default.Save();
+                MessageBox.Show("User theme settings saved.", "Theme Settings");
             }
         }
     }
